@@ -1,0 +1,6 @@
+{
+  "name": "component-graph",
+  "description": "component graph app",
+  "paths": ["lib"],
+  "local": ["boot"]
+}

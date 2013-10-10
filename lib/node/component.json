@@ -1,0 +1,8 @@
+{
+  "name": "node",
+  "description": "",
+  "dependencies": {},
+  "development": {},
+  "main": "index.js",
+  "scripts": ["index.js"]
+}

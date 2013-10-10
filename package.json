@@ -1,0 +1,10 @@
+{
+  "name": "component-graph",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~3.4.0",
+    "component": "~0.17.6"
+  },
+  "devDependencies": {}
+}

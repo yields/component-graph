@@ -1,0 +1,12 @@
+{
+  "name": "boot",
+  "description": "boot app",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "local": ["styles", "graph"],
+  "dependencies": {
+    "visionmedia/page.js": "*",
+    "component/tip": "*",
+    "mbostock/d3": "*"
+  }
+}

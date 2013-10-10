@@ -1,0 +1,11 @@
+{
+  "name": "graph",
+  "description": "",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "local": ["node"],
+  "dependencies": {
+    "component/emitter": "*",
+    "visionmedia/batch": "*"
+  }
+}

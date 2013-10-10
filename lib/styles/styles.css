@@ -1,0 +1,37 @@
+* {
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 100px;
+}
+
+input,
+div {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+::-webkit-input-placeholder {
+  color: #eee;
+}
+
+input {
+  font: 100 40px 'Helvetica Neue';
+  border: 0 none;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+input:focus {
+  outline: 0 none;
+}
+
+circle {
+  cursor: pointer;
+}
