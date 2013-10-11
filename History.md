@@ -3,8 +3,5 @@
 ==================
 
  * highlight direct dependencies
- * hide title on mouseout
  * remove tip dep, use svg text node
  * use .static() middleware for now
- * add readme
- * Initial commit
