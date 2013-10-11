@@ -13,22 +13,10 @@ var express = require('express');
 var app = module.exports = express();
 
 /**
- * serve `build.js`
+ * Middleware
  */
 
-app.get('/build.js', function(req, res){
-  res.type('js');
-  res.sendfile(__dirname + '/build/build.js');
-});
-
-/**
- * serve `build.css`
- */
-
-app.get('/build.css', function(req, res){
-  res.type('css');
-  res.sendfile(__dirname + '/build/build.css');
-});
+app.use(express.static(__dirname + '/build'));
 
 /**
  * GET `/:user/:name`
