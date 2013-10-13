@@ -3,6 +3,7 @@
   "description": "Graph View.",
   "main": "index.js",
   "scripts": ["index.js"],
+  "styles": ["graph-view.css"],
   "dependencies": {
     "component/to-function": "*",
     "component/emitter": "*",
