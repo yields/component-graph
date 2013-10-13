@@ -1,0 +1,10 @@
+{
+  "name": "graph-view",
+  "description": "Graph View.",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "dependencies": {
+    "component/to-function": "*",
+    "mbostock/d3": "*"
+  }
+}
