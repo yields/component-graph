@@ -4,7 +4,7 @@ SRC= $(wildcard lib/*/*.js)
 STYL= $(wildcard lib/*/*.styl)
 CSS= $(STYL:.styl=.css)
 
-build: node_modules components $(CSS)
+build: node_modules components $(SRC) $(CSS)
 	@component build
 
 components: $(JSON)
