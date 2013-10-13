@@ -5,6 +5,7 @@
   "scripts": ["index.js"],
   "dependencies": {
     "component/to-function": "*",
+    "component/emitter": "*",
     "mbostock/d3": "*"
   }
 }
