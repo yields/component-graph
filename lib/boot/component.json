@@ -3,7 +3,7 @@
   "description": "boot app",
   "main": "index.js",
   "scripts": ["index.js"],
-  "local": ["styles", "graph", "graph-view"],
+  "local": ["styles", "graph", "graph-view", "stats-view"],
   "dependencies": {
     "visionmedia/page.js": "*",
     "mbostock/d3": "*"

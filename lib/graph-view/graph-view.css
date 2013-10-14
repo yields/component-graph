@@ -1,3 +1,7 @@
 circle {
   cursor: pointer;
 }
+
+svg {
+  height: 500px;
+}

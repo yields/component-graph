@@ -1,0 +1,14 @@
+{
+  "name": "stats-view",
+  "description": "stats view",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "styles": ["stats-view.css"],
+  "templates": ["template.html"],
+  "dependencies": {
+    "component/reactive": "*",
+    "visionmedia/bytes.js": "*",
+    "component/emitter": "*",
+    "component/domify": "*"
+  }
+}
