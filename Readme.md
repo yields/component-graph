@@ -1,7 +1,7 @@
 ## component-graph
 
-  [![graph](https://i.cloudup.com/JkSHr9TLqe.png)](https://cloudup.com/cyg1SkRw79G)
-  
+  [![graph](https://i.cloudup.com/fmA5Vn61Je.png)](https://cloudup.com/ccsqsCHSxVA)
+
 ## todo
 
   - put it somewhere
