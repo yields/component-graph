@@ -16,6 +16,7 @@ var app = module.exports = express();
  * Middleware
  */
 
+app.use(express.json());
 app.use(express.static(__dirname + '/build'));
 
 /**
@@ -29,6 +30,17 @@ app.get('/:user/:name', function(req, res, next){
   component.json(pkg, function(err, obj){
     if (err) return next(err);
     res.send(obj);
+  });
+});
+
+/**
+ * POST `/stats`
+ */
+
+app.post('/stats', function(req, res){
+  component.stats(req.body, function(err, stats){
+    if (err) return req.next(err);
+    res.send(stats);
   });
 });
 

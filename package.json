@@ -4,7 +4,9 @@
   "main": "index.js",
   "dependencies": {
     "express": "~3.4.0",
-    "component": "~0.17.6"
+    "component": "~0.17.6",
+    "byline": "~3.1.2",
+    "batch": "~0.5.0"
   },
   "devDependencies": {}
 }
