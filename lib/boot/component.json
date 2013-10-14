@@ -6,6 +6,7 @@
   "local": ["styles", "graph", "graph-view", "stats-view"],
   "dependencies": {
     "visionmedia/page.js": "*",
+    "component/dom": "*",
     "mbostock/d3": "*"
   }
 }
