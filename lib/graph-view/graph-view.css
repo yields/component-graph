@@ -5,3 +5,8 @@ circle {
 svg {
   height: 500px;
 }
+
+text {
+  font-family: 'Helvetica Neue';
+  font-size: 15px;
+}
